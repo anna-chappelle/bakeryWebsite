@@ -8,10 +8,6 @@ tags:
 
 # Ktor Example
 
-This example starts a basic [Kotlin Spring Boot](https://spring.io/projects/spring-boot) web server.
-
-[![Deploy on Railway](https://railway.app/button.svg)](https://railway.app/new/template/w502ro)
-
 ## ✨ Features
 
 - Spring
