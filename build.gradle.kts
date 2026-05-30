@@ -7,7 +7,7 @@ plugins {
   	kotlin("plugin.spring") version "1.5.32"
 }
 
-group = "io.paketo"
+group = "store.somethingbaked"
 version = "0.0.1-SNAPSHOT"
 java.sourceCompatibility = JavaVersion.VERSION_1_8
 
