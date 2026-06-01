@@ -1,3 +1,6 @@
 # Gradle artifacts
 .gradle/
 build/
+
+# Language server db
+kls_database.db
