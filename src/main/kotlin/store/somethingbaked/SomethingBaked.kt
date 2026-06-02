@@ -1,4 +1,4 @@
-package io.paketo.demo
+package store.somethingbaked
 
 import org.springframework.boot.autoconfigure.SpringBootApplication
 import org.springframework.boot.runApplication
