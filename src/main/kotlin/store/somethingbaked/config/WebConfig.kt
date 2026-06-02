@@ -1,11 +1,9 @@
-package store.somethingbaked.config
-
 import org.springframework.context.annotation.Configuration
-import org.springframework.web.servlet.config.annotation.CorsRegistry
 import org.springframework.web.servlet.config.annotation.WebMvcConfigurer
+import org.springframework.web.servlet.config.annotation.CorsRegistry
 
 @Configuration
-class CorsConfig : WebMvcConfigurer {
+class WebConfig : WebMvcConfigurer {
 
     override fun addCorsMappings(registry: CorsRegistry) {
         registry.addMapping("/**")
@@ -14,5 +12,6 @@ class CorsConfig : WebMvcConfigurer {
             )
             .allowedMethods("*")
             .allowedHeaders("*")
+            .allowCredentials(true)
     }
 }

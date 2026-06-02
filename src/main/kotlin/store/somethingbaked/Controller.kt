@@ -1,4 +1,4 @@
-package io.paketo.demo
+package store.somethingbaked
 
 import org.springframework.web.bind.annotation.RestController
 import org.springframework.web.bind.annotation.GetMapping
