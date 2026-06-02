@@ -8,7 +8,7 @@ class MyController {
 
     @GetMapping("/test")
     fun test(): String {
-        return "{}"
+        return "{ \"data\": \"hahahaha\" }"
     }
 
 }
