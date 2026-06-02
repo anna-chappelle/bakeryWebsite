@@ -1,20 +1,12 @@
----
-title: Kotlin Spring
-description: A basic Kotlin Kotlin Spring server
-tags:
-  - spring
-  - kotlin
----
+# Something Baked Website - Backend 🔥
 
-# Ktor Example
+Built with Kotlin and Spring Boot
 
-## ✨ Features
+### Building
 
-- Spring
-- Kotlin
+`./gradlew build`
 
-## 💁‍♀️ How to use
+### Running
 
-- Click the Railway button to deploy the app
-- Clone the project and connect to it using `railway link`
-- Run your Kotlin Spring app locally using `railway ./gradlew run`
+`./gradlew bootRun`
+
